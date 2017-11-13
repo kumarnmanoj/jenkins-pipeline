@@ -5,7 +5,6 @@ pipeline {
         pollSCM('H/15 * * * *')
     }
 
-    node {
         stages {
             stage("Sample"){
                 steps {
@@ -15,5 +14,4 @@ pipeline {
                 }
             }
         }
-    }
 }
