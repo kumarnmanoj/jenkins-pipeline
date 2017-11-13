@@ -12,6 +12,7 @@ pipeline {
                 steps {
                     sh '''
                         echo "In stage1 branch"
+                        echo "My change for stage1"
                     '''
                 }
             }
