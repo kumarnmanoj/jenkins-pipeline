@@ -5,7 +5,7 @@ pipeline {
         stage("Sample"){
             steps {
                 sh '''
-                    echo "In stage1 branch"
+                    echo "In stage2 2 branch"
                 '''
             }
         }
