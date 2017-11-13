@@ -5,12 +5,14 @@ pipeline {
         pollSCM('H/15 * * * *')
     }
 
-    stages {
-        stage("Sample"){
-            steps {
-                sh '''
-                    echo "In stage1 branch"
-                '''
+    node {
+        stages {
+            stage("Sample"){
+                steps {
+                    sh '''
+                        echo "In stage1 branch"
+                    '''
+                }
             }
         }
     }
