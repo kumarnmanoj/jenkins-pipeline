@@ -1,1 +1,1 @@
-Jenkinsfile.groovy merge=recursive -Xours
+Jenkinsfile.groovy merge=ours
